@@ -1,0 +1,60 @@
+img {
+  width: 94%;
+}
+
+.intro {
+  background-color: #d5d5d5;
+}
+
+.hello {
+  font-size: 100px;
+  font-family: 'Parisienne', cursive;
+}
+
+.findme {
+  font-size: 80px;
+  font-family: 'Parisienne', cursive;
+}
+
+div .bi {
+  width: 1em;
+  height: 1em;
+}
+
+.feature-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.personal_detail {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  font-family: 'Roboto', sans-serif;
+  align-items: flex-start;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.skills {
+  background-image: url("./assets/images/skills.jpg");
+  background-size: contain;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.pdf {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#gallery {
+   line-height:0;
+   column-count:4;
+   column-gap:5px;
+}
