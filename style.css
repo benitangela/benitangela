@@ -27,6 +27,22 @@ div .bi {
   border-radius: 0.75rem;
 }
 
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.knowmore {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  gap: 10px;
+}
+
+.knowmore > * {
+  flex: 1 1 auto;
+}
+
 .personal_detail {
   display: flex;
   flex-direction: column;
@@ -35,16 +51,15 @@ div .bi {
   align-items: flex-start;
 }
 
-ul {
-    padding: 0;
-    list-style-type: none;
+.skillphoto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
 
-.skills {
-  background-image: url("./assets/images/skills.jpg");
-  background-size: contain;
-  background-position: right center;
-  background-repeat: no-repeat;
+.skillphoto > img {
+  width: 40%;
 }
 
 .pdf {
